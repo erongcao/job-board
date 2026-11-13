@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2027 岗位看板 · 实习 / 正式</title>
+<style>
+  :root{
+    --bg:#0f1216; --panel:#171c22; --panel2:#1e242c; --line:#2a323c;
+    --txt:#e6edf3; --dim:#8b98a5; --accent:#4c9aff; --green:#3fb950;
+    --amber:#d29922; --purple:#a371f7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+    font:14px/1.55 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif}
+  a{color:var(--accent);text-decoration:none}
+  .wrap{max-width:1400px;margin:0 auto;padding:22px 20px 60px}
+  header{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;margin-bottom:6px}
+  h1{font-size:21px;margin:0;font-weight:650}
+  .scan{color:var(--dim);font-size:12px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:10px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:11px 13px}
+  .stat b{display:block;font-size:22px;font-weight:650;line-height:1.25}
+  .stat span{color:var(--dim);font-size:11.5px}
+  .tabs{display:flex;gap:8px;margin:20px 0 12px;border-bottom:1px solid var(--line)}
+  .tab{background:none;border:none;border-bottom:2px solid transparent;color:var(--dim);
+    padding:10px 16px;font-size:15px;cursor:pointer;font-family:inherit;font-weight:600}
+  .tab.on{color:var(--txt);border-bottom-color:var(--accent)}
+  .tab small{font-weight:400;opacity:.7;margin-left:5px}
+  .bar{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:12px}
+  input[type=search],select{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    padding:7px 10px;border-radius:8px;font-size:13px;font-family:inherit;outline:none}
+  input[type=search]{min-width:230px;flex:1 1 230px}
+  input[type=search]:focus,select:focus{border-color:var(--accent)}
+  label.chk{display:inline-flex;align-items:center;gap:5px;color:var(--dim);font-size:12.5px;cursor:pointer;user-select:none}
+  .btn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);padding:7px 12px;
+    border-radius:8px;font-size:12.5px;cursor:pointer;font-family:inherit}
+  .btn:hover{border-color:var(--accent)}
+  table{width:100%;border-collapse:collapse;background:var(--panel);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--panel2);font-size:12px;color:var(--dim);font-weight:600;
+    cursor:pointer;white-space:nowrap;position:sticky;top:0;user-select:none}
+  th:hover{color:var(--txt)}
+  td.co{white-space:nowrap;font-weight:550}
+  td.age{white-space:nowrap;color:var(--dim);font-size:12.5px}
+  td.sal{white-space:nowrap;font-size:12.5px}
+  .tag{display:inline-block;padding:1px 6px;border-radius:5px;font-size:10.5px;
+    border:1px solid var(--line);color:var(--dim);margin-right:4px;white-space:nowrap}
+  .t-new{color:var(--green);border-color:#2b5c34;background:#12261a}
+  .t-phd{color:var(--purple);border-color:#4a3a63;background:#221a2e}
+  .t-faang{color:var(--amber);border-color:#5c4a1e;background:#2a2212}
+  .t-quant{color:#39c5cf;border-color:#1d4d52;background:#122629}
+  .t-remote{color:#39c5cf;border-color:#1d4d52;background:#122629}
+  .t-startup{color:#e07a5f;border-color:#5c3229;background:#2a1a16}
+  .t-exp{color:#8b98a5;border-color:#3a444f;background:#1c222a}
+  .t-visa-yes{color:var(--green);border-color:#2b5c34;background:#12261a;cursor:help}
+  .t-visa-no{color:#f85149;border-color:#5c2b2b;background:#261212;cursor:help}
+  .t-visa-warn{color:var(--amber);border-color:#5c4a1e;background:#2a2212;cursor:help}
+  .newdot{color:var(--green);font-size:10.5px;margin-left:5px}
+  .empty{padding:40px;text-align:center;color:var(--dim)}
+  footer{margin-top:22px;color:var(--dim);font-size:12px;line-height:1.9}
+  .srcline{margin-top:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>2027 岗位看板</h1>
+    <span class="scan" id="scanAt">—</span>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="tabs">
+    <button class="tab on" data-type="intern">实习 <small id="c-intern"></small></button>
+    <button class="tab" data-type="grad">正式工作（New Grad） <small id="c-grad"></small></button>
+    <button class="tab" data-type="all">全部 <small id="c-all"></small></button>
+  </div>
+
+  <div class="bar">
+    <input type="search" id="q" placeholder="搜索公司 / 岗位 / 地点关键词…">
+    <select id="track">
+      <option value="">全部赛道</option>
+      <option value="SWE">SWE</option>
+      <option value="AI">AI / ML</option>
+    </select>
+    <select id="region">
+      <option value="">全部地区</option>
+      <option value="USA">美国</option>
+      <option value="INTL">国际</option>
+    </select>
+    <select id="tier">
+      <option value="">全部层级</option>
+      <option value="FAANG+">FAANG+</option>
+      <option value="Quant">Quant</option>
+      <option value="Other">Other</option>
+    </select>
+    <select id="source">
+      <option value="">全部来源</option>
+      <option value="SpeedyApply">2027 校招（SpeedyApply）</option>
+      <option value="Wellfound">Wellfound 创业公司</option>
+      <option value="YC WAA">YC Work at a Startup</option>
+    </select>
+    <select id="visa">
+      <option value="">签证：全部</option>
+      <option value="yes">有 H-1B 记录</option>
+      <option value="no">无记录（慎投）</option>
+      <option value="warn">存疑待复核</option>
+      <option value="unknown">未核（不在库）</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="fresh"> 仅看 7 天内新岗位</label>
+    <label class="chk"><input type="checkbox" id="hidePhd"> 隐藏 PhD</label>
+    <label class="chk"><input type="checkbox" id="studentOnly"> 只看应届相关</label>
+    <button class="btn" id="csv">导出 CSV</button>
+  </div>
+
+  <div id="tbl"></div>
+
+  <footer>
+    数据来源（每日扫描）：
+    <div class="srcline" id="src"></div>
+    <div>本看板仅为原始清单的汇总与筛选视图，投递与核验请以公司官方页面为准。</div>
+    <div>公司名旁「H-1B✓ / H-1B~」= 劳工部 FY2026 H-1B 担保记录（✓人工复核 ／ ~自动匹配）；「无H-1B记录 / 存疑」同理。<b>有记录 ≠ 接受 CPT/OPT 实习生，无记录 ≠ 一定不担保</b>——最终请以 JD 原文（work authorization / CPT / OPT / permanent basis 条款）为准。</div>
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const S = DATA.stats;
+
+let curType = 'intern', sortKey = 'age_days', sortDir = 1;
+
+function fmtSalary(j){
+  if(!j.salary) return '—';
+  return j.salary;
+}
+function ageCell(j){
+  if(j.age_days == null) return j.age_text || '—';
+  let s = j.age_days + ' 天前';
+  if(j.first_seen === DATA.scan_date) s += '<span class="newdot">● 新增</span>';
+  return s;
+}
+
+document.getElementById('scanAt').textContent = '最近扫描：' + DATA.scanned_at + ' ｜ 新增 ' + S.new_today + ' 条';
+document.getElementById('src').innerHTML = DATA.sources.map(s =>
+  '<a href="'+s.url+'" target="_blank" rel="noopener">'+s.name+'</a> — '+s.title).join('<br>')
+  + '<br><a href="https://wellfound.com/jobs" target="_blank" rel="noopener">Wellfound</a> — 创业公司岗位（含薪资）'
+  + '<br><a href="https://www.workatastartup.com/jobs" target="_blank" rel="noopener">YC Work at a Startup</a> — YC 创业公司岗位'
+  + '<br><span style="opacity:.7">创业渠道多为有经验岗位，与 2027 校招数据分池统计，可用「只看应届相关」快速过滤。</span>';
+
+document.getElementById('stats').innerHTML = [
+  ['2027 总岗位', S.total], ['实习', S.intern], ['正式工作', S.grad],
+  ['SWE', S.swe], ['AI / ML', S.ai], ['美国', S.usa], ['国际', S.intl], ['今日新增', S.new_today],
+  ['创业渠道', S.startup_total || 0],
+  ['有 H-1B 记录', S.visa_yes || 0], ['无 H-1B 记录', S.visa_no || 0]
+].map(([k,v]) => '<div class="stat"><b>'+v+'</b><span>'+k+'</span></div>').join('');
+
+document.getElementById('c-intern').textContent = S.intern;
+document.getElementById('c-grad').textContent = S.grad;
+document.getElementById('c-all').textContent = S.total_all || S.total;
+
+document.querySelectorAll('.tab').forEach(t => t.onclick = () => {
+  document.querySelectorAll('.tab').forEach(x => x.classList.remove('on'));
+  t.classList.add('on'); curType = t.dataset.type; render();
+});
+
+const COLS = [
+  {k:'company',   t:'公司'},
+  {k:'position',  t:'岗位'},
+  {k:'location',  t:'地点'},
+  {k:'salary_num',t:'薪资'},
+  {k:'age_days',  t:'发布'},
+  {k:'track',     t:'赛道'},
+];
+
+function current(){
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const track = document.getElementById('track').value;
+  const region = document.getElementById('region').value;
+  const tier = document.getElementById('tier').value;
+  const source = document.getElementById('source').value;
+  const fresh = document.getElementById('fresh').checked;
+  const hidePhd = document.getElementById('hidePhd').checked;
+  const studentOnly = document.getElementById('studentOnly').checked;
+  const visa = document.getElementById('visa').value;
+
+  return DATA.jobs.filter(j => {
+    if(curType !== 'all' && j.type !== curType) return false;
+    if(track && j.track !== track) return false;
+    if(region && j.region !== region) return false;
+    if(tier && j.tier !== tier) return false;
+    if(source && (j.source || 'SpeedyApply') !== source) return false;
+    if(visa){
+      const jv = j.visa || 'unknown';
+      if(visa === 'yes' && !(jv === 'ok' || jv === 'auto')) return false;
+      if(visa !== 'yes' && jv !== visa) return false;
+    }
+    if(studentOnly && j.type === 'experienced') return false;
+    if(fresh && !(j.age_days != null && j.age_days <= 7)) return false;
+    if(hidePhd && j.tags.includes('phd')) return false;
+    if(q){
+      const hay = (j.company+' '+j.position+' '+j.location).toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a,b) => {
+    const k = sortKey;
+    if(k === 'salary_num'){
+      const av = a.salary_num, bv = b.salary_num;
+      if(av == null && bv == null) return 0;
+      if(av == null) return 1;
+      if(bv == null) return -1;
+      return (av - bv) * sortDir;
+    }
+    const av = a[k], bv = b[k];
+    if(av == null && bv == null) return 0;
+    if(av == null) return 1;
+    if(bv == null) return -1;
+    return (typeof av === 'string' ? av.localeCompare(bv) : av - bv) * sortDir;
+  });
+}
+
+function visaBadge(j){
+  const v = j.visa;
+  if(!v || v === 'unknown') return '';
+  if(v === 'ok') return ' <span class="tag t-visa-yes" title="人工复核：该公司有 H-1B 担保记录（劳工部 FY2026 数据）">H-1B✓'
+    + (j.visa_n ? ' ' + j.visa_n : '') + '</span>';
+  if(v === 'auto') return ' <span class="tag t-visa-yes" title="自动匹配劳工部 FY2026 H-1B 数据，未人工复核；有记录≠接受 CPT/OPT 实习生，以 JD 原文为准">H-1B~'
+    + (j.visa_n ? ' ' + j.visa_n : '') + '</span>';
+  if(v === 'no') return ' <span class="tag t-visa-no" title="FY2026 无 H-1B 担保记录：不代表一定不招国际学生，投递前务必读 JD 的 work authorization 条款">无H-1B记录</span>';
+  if(v === 'warn') return ' <span class="tag t-visa-warn" title="同名歧义或数据存疑，需人工复核后再投">存疑</span>';
+  return '';
+}
+
+function render(){
+  const rows = current();
+  if(!rows.length){
+    document.getElementById('tbl').innerHTML = '<div class="empty">当前筛选条件下没有岗位</div>';
+    return;
+  }
+  let h = '<table><thead><tr>';
+  COLS.forEach(c => {
+    const arrow = sortKey === c.k ? (sortDir > 0 ? ' ↑' : ' ↓') : '';
+    h += '<th data-k="'+c.k+'">'+c.t+arrow+'</th>';
+  });
+  h += '<th></th></tr></thead><tbody>';
+  rows.forEach(j => {
+    const tags = [];
+    const src = j.source || 'SpeedyApply';
+    if(src !== 'SpeedyApply') tags.push('<span class="tag t-startup">' + esc(src) + '</span>');
+    if(j.type === 'experienced') tags.push('<span class="tag t-exp">要求经验</span>');
+    if(j.tier === 'FAANG+') tags.push('<span class="tag t-faang">FAANG+</span>');
+    if(j.tier === 'Quant') tags.push('<span class="tag t-quant">Quant</span>');
+    if(j.tags.includes('remote')) tags.push('<span class="tag t-remote">Remote</span>');
+    if(j.tags.includes('co-op')) tags.push('<span class="tag">Co-op</span>');
+    if(j.tags.includes('phd')) tags.push('<span class="tag t-phd">PhD</span>');
+    if(j.tags.includes('high_school')) tags.push('<span class="tag">High School</span>');
+    // 先转义地点文本，再拼 +N 标签；顺序反了会让标签以字面 HTML 显示
+    const loc = esc(j.location) + (j.extra_locations ? ' <span class="tag">+' + j.extra_locations + '</span>' : '');
+    h += '<tr>'
+      + '<td class="co">' + esc(j.company) + visaBadge(j) + '</td>'
+      + '<td>' + esc(j.position) + (tags.length ? '<div style="margin-top:4px">' + tags.join('') + '</div>' : '') + '</td>'
+      + '<td>' + loc + '</td>'
+      + '<td class="sal">' + fmtSalary(j) + '</td>'
+      + '<td class="age">' + ageCell(j) + '</td>'
+      + '<td><span class="tag">' + j.track + '</span> ' + (j.region === 'USA' ? '美国' : '国际') + '</td>'
+      + '<td><a href="' + j.url + '" target="_blank" rel="noopener">申请 →</a></td>'
+      + '</tr>';
+  });
+  h += '</tbody></table>';
+  document.getElementById('tbl').innerHTML = h;
+
+  document.querySelectorAll('th[data-k]').forEach(th => th.onclick = () => {
+    const k = th.dataset.k;
+    if(sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = 1; }
+    render();
+  });
+}
+
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+['q','track','region','tier','source','visa','fresh','hidePhd','studentOnly'].forEach(id => {
+  const el = document.getElementById(id);
+  el.addEventListener(id === 'q' ? 'input' : 'change', render);
+});
+
+document.getElementById('csv').onclick = () => {
+  const rows = current();
+  const head = ['公司','岗位','地点','薪资','发布天数','类型','赛道','地区','层级','来源','H-1B记录','链接'];
+  const visaTxt = j => j.visa === 'ok' ? '有记录(人工复核)'
+    : j.visa === 'auto' ? '有记录(自动匹配,' + (j.visa_n || '') + ')'
+    : j.visa === 'no' ? '无记录'
+    : j.visa === 'warn' ? '存疑' : '';
+  const body = rows.map(j => [j.company, j.position, j.location, j.salary,
+    j.age_days == null ? '' : j.age_days,
+    j.type === 'intern' ? '实习' : (j.type === 'newgrad' ? '应届' : (j.type === 'experienced' ? '有经验' : '正式')),
+    j.track, j.region === 'USA' ? '美国' : '国际', j.tier,
+    j.source || 'SpeedyApply', visaTxt(j), j.url]);
+  const csv = '﻿' + [head, ...body].map(r =>
+    r.map(c => '"' + String(c == null ? '' : c).replace(/"/g,'""') + '"').join(',')).join('\n');
+  const url = URL.createObjectURL(new Blob([csv], {type:'text/csv;charset=utf-8'}));
+  const a = document.createElement('a');
+  a.href = url; a.download = '2027-jobs-' + DATA.scan_date + '.csv';
+  a.click(); URL.revokeObjectURL(url);
+};
+
+render();
+</script>
+</body>
+</html>
