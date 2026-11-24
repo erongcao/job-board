@@ -29,7 +29,12 @@ cd job-board
 python3 fetch_jobs.py
 ```
 
-**自动刷新**：已配置每天早上 8:00（Asia/Shanghai）自动扫描，任务名「2027 岗位看板每日扫描」，扫描完会主动汇报当日新增岗位。
+**自动刷新**：由 GitHub Actions 在云端每天跑（详见下方「自动同步」）。本机 cron 每天 08:00 负责**取回**云端已生成的数据并汇报当日新增。
+
+> 为什么要放云端：本地定时任务的调度器跑在 MiniMax Code 桌面 App 进程里，
+> App 没运行（机器还在深度睡眠、或 App 被关掉）就**当天完全不触发**，且没有补跑。
+> 实测 2026-10-10 至 11-24 的 46 天里断档 18 天。GitHub Actions 的调度器跑在
+> GitHub 的云端，与本机状态完全无关。
 
 ## 看板功能
 
@@ -53,6 +58,19 @@ python3 fetch_jobs.py
 
 当前数据里，正式工作 Tab 中混入的实习岗位为 0 条，分类准确。
 
+## 数据过滤
+
+上游清单里混着两类不是软件岗的东西，已在管道里精确剔除：
+
+| 过滤项 | 规则 | 影响 |
+|---|---|---|
+| 数据采集零工 | 标题含 `recording videos`（如 Mindrift「Earn $70 Recording Videos at Home for AI」——付钱让普通人在家录视频给模型做训练数据） | 剔除 10 条。不误伤 `Robotics Data Collection` 这类真实实习标题 |
+| 创业渠道非技术岗 | 标题必须命中技术岗白名单才保留 | 创业渠道 89 → 81 条，剔掉 VP/Analytics、Creative Director、Actuary、Events Manager 等 8 条 |
+
+创业渠道的白名单**只作用于创业渠道**，不碰 2027 校招主数据——主数据里有 NVIDIA PhD Economics、Micron 采购实习这类真实但非 CS 的岗位，按关键词砍会误伤。
+
+白名单特意包含 `Member of Technical Staff` / `MTS`（YC 体系里对创始工程师的标准称谓），并刻意不收 `development` / `analytics` / `platform` 等泛词，避免 `Director, International Development` / `VP, Analytics` 这类漏网。
+
 ## 文件说明
 
 ```
@@ -60,17 +78,42 @@ job-board/
 ├── index.html        # 看板（由脚本生成，每次扫描覆盖；已部署到 GitHub Pages）
 ├── template.html     # 看板模板，改样式改这里
 ├── fetch_jobs.py     # 扫描脚本（零第三方依赖，只用 Python 标准库）
-├── scan_startup.py   # 创业渠道抓取（Wellfound / YC Work at a Startup，需 Playwright + Chrome）
+├── scan_startup.py   # 创业渠道抓取（Wellfound / YC Work at a Startup，需 Playwright + 浏览器）
 ├── visa_build.py     # 签证标记生成器（产出 data/visa.json）
-└── data/             # 本地数据目录，不入库（.gitignore），由脚本重新生成
-    ├── jobs.json     # 当日岗位快照
-    ├── history.json  # 历史累计，用于识别新增岗位
-    ├── visa.json     # 公司 -> H-1B 担保记录标记
-    ├── h1b_employers_fy26q3.json  # 劳工部 FY26 H-1B 雇主统计（visa_build 的原料）
-    └── raw/          # 8 个清单文件的 markdown 留档
+├── .github/workflows/sync.yml  # 每日云端同步（GitHub Actions）
+└── data/             # 本地数据目录
+    ├── jobs.json     # 当日岗位快照（不入库，每次重新生成）
+    ├── history.json  # 历史累计，用于识别新增岗位  ← 入库
+    ├── visa.json     # 公司 -> H-1B 担保记录标记      ← 入库
+    ├── h1b_employers_fy26q3.json  # 劳工部 FY26 H-1B 雇主统计（visa_build 的原料，不入库）
+    └── raw/          # 8 个清单文件的 markdown 留档（不入库）
 ```
 
-> `data/` 目录体积大且每天变动，已在 `.gitignore` 中排除；看板页面 `index.html` 已把数据内嵌，无需 `data/` 也能正常打开。
+> `data/` 下只有 `history.json` 和 `visa.json` 入库，其余排除。`history.json` 必须入库，
+> 否则云端每次都把全部岗位当成「今日新增」，`first_seen` 也会全部塌成当天；
+> `visa.json` 必须入库，因为 `visa_build.py` 依赖本机不存在的 `visa_curated.json`，
+> 无法在云端重新生成。
+
+## 自动同步（GitHub Actions）
+
+`.github/workflows/sync.yml` 每天 **07:30（Asia/Shanghai）** 在 GitHub 云端跑一遍完整管道：
+
+1. 检出代码（带上 `data/history.json` 和 `data/visa.json`）
+2. 装 Python 依赖 + Playwright 自带 Chromium
+3. 跑 `fetch_jobs.py`：下载 8 个清单 → 解析 → 合并创业渠道 → 注入签证标记 → 渲染 `index.html`
+4. 提交并推送 `index.html` + 状态文件 → 推送触发 GitHub Pages 自动重建
+
+也支持在 Actions 页面手动触发（workflow_dispatch）随时验证。
+
+几个设计要点：
+
+- **时区**：runner 默认 UTC，工作流里设了 `TZ: Asia/Shanghai`，`scan_date` 才是北京时间。
+- **浏览器**：本地优先用系统 Chrome；云端没有系统 Chrome，`scan_startup.py` 会自动回退到 Playwright 自带 Chromium。
+- **单写者**：只有 Actions 会推送。本机 cron 只负责取回并汇报，避免两边同时改 `history.json` 打架。
+- **幂等**：同一天重跑不会让「今日新增」塌成个位数——该字段按 `first_seen` 统计，不是按本次扫描的命中数。
+
+> GitHub Actions 的 schedule 在仓库 60 天无活动时会自动停用。本仓库每天都有提交，不会触发。
+> 另外 Actions 的定时任务在高峰期可能被推迟几分钟，所以本地 cron 定在 08:00，留了 30 分钟余量。
 
 ## 在线看板
 
@@ -78,7 +121,7 @@ job-board/
 
 **https://erongcao.github.io/job-board/**
 
-每次本地跑完 `python3 fetch_jobs.py` 后，把新的 `index.html` 提交推送，页面即同步更新。
+现在由 Actions 自动推送更新，不需要手动提交。
 
 改看板样式请改 `template.html`，然后重跑 `python3 fetch_jobs.py` 重新生成 `index.html`。
 

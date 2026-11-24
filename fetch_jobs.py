@@ -116,6 +116,13 @@ def is_row(line):
     return "Company" not in line
 
 
+# 上游把「付钱让普通人在家录视频给 AI 模型做训练数据」的数据采集零工放进了
+# NEW_GRAD_USA.md，导致它被当成正式技术岗（它被归为"正式"是因为我的分类逻辑
+# 对"不匹配关键词"的岗位默认继承文件类型）。
+# 这里用精确词组排除，刻意不匹配 "Robotics Data Collection" 这类真实实习标题。
+NOISE_POSITION_RE = re.compile(r"recording\s+videos?\b", re.I)
+NOISE_HITS = []
+
 INTERN_KW = ["intern", "co-op", "coop", "internship", "trainee", "practicum", "工作实习"]
 GRAD_KW = [
     "new grad", "newgrad", "new graduate", "new-grad", "entry level", "entry-level",
@@ -183,6 +190,11 @@ def parse_table(text, track, default_type, default_region):
         company = strip_html(row.get("company", ""))
         position = strip_html(row.get("position", ""))
         if not company or not position:
+            continue
+
+        # 剔除数据采集零工（付钱录视频给模型做训练数据），不是软件工程岗
+        if NOISE_POSITION_RE.search(position):
+            NOISE_HITS.append((company, position))
             continue
 
         location = strip_html(row.get("location", ""))
@@ -385,7 +397,6 @@ def main():
             history = {}
 
     today_str = TODAY.isoformat()
-    new_cnt = 0
     for j in uniq:
         k = j["url"]
         rec = history.get(k)
@@ -396,7 +407,6 @@ def main():
         else:
             j["first_seen"] = today_str
             history[k] = {"first_seen": today_str, "last_seen": today_str, "closed": False}
-            new_cnt += 1
 
     for k, rec in history.items():
         if k not in seen:
@@ -435,7 +445,10 @@ def main():
             "ai": sum(1 for j in core if j["track"] == "AI"),
             "usa": sum(1 for j in core if j["region"] == "USA"),
             "intl": sum(1 for j in core if j["region"] == "INTL"),
-            "new_today": new_cnt,
+            # 「今日新增」按 first_seen 统计，而不是按"本次扫描没见过的条数"：
+            # 同一天重跑（本地兜底 + Actions，或多次手动触发）时口径保持一致，
+            # 不会因为第二次跑就塌成个位数。
+            "new_today": sum(1 for j in uniq if j.get("first_seen") == today_str),
             "dedup_removed": dup,
             "total_all": len(uniq),
             "startup_total": len(startup_jobs),
@@ -470,6 +483,9 @@ def main():
     print("  实习 %d / 正式 %d" % (s["intern"], s["grad"]))
     print("  SWE %d / AI %d ｜ 美国 %d / 国际 %d" % (s["swe"], s["ai"], s["usa"], s["intl"]))
     print("  今日新增 %d 条" % s["new_today"])
+    if NOISE_HITS:
+        print("  已剔除采集类零工 %d 条（%s 等）"
+              % (len(NOISE_HITS), NOISE_HITS[0][0]))
     if s["startup_total"]:
         print("  创业渠道 %d 条（应届相关 %d / 有经验 %d）｜ %s"
               % (s["startup_total"], s["startup_student"], s["startup_experienced"],

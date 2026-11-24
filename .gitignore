@@ -1,5 +1,13 @@
-# 本地数据目录：体积大且每天变动，由脚本重新生成，不入库
-data/
+# 本地数据目录：体积大且每天变动，由脚本重新生成，不入库。
+# 例外两件必须入库，否则 GitHub Actions 在云端跑出来的看板会出问题：
+#   history.json  去重状态。没有它，Actions 每次都把全部岗位当成"今日新增"，
+#                 且 first_seen 全部变成当天，看板的历史累计字段也拿不到。
+#   visa.json     签证标记数据（劳工部 H-1B 数据 + 人工复核产物）。
+#                 visa_build.py 依赖本机不存在的 visa_curated.json，无法重新生成，
+#                 所以只能把成品入库。
+data/*
+!data/history.json
+!data/visa.json
 
 # Python
 __pycache__/

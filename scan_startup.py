@@ -78,6 +78,47 @@ SENIOR_KW = ("senior", "sr.", "staff", "principal", "lead ", "director", "head o
              "vp ", "vice president", "manager", "architect", "fellow", "founder",
              " iii", " ii ")
 
+# ---------------------------------------------------------------- 技术岗白名单
+# 创业渠道（Wellfound / YC WAA）会混入销售、财务、设计、HR、市场等非技术岗。
+# 这里用「正向白名单」判定：标题命中任一技术关键词即保留，否则剔除。
+# 刻意包含 "Member of Technical Staff" / "MTS" —— 那是 YC 体系里对创始工程师的
+# 标准称谓，属于核心技术岗，绝不能误杀。
+# 同时刻意不收 "development" / "analytics" / "platform" 等泛词，
+# 免得 "Director, International Development" / "VP, Analytics" 这类漏网。
+TECH_TERMS = (
+    "engineer", "engineering", "developer", "programmer", "software", "swe",
+    "devops", "sre", "site reliability", "reliability",
+    "backend", "frontend", "full stack", "fullstack", "web", "mobile",
+    "ios", "android",
+    "machine learning", "artificial intelligence", "deep learning",
+    "computer vision", "nlp", "llm", "ml", "ai",
+    "data engineer", "data scientist", "data platform", "data analyst",
+    "analytics engineer", "scientist", "researcher",
+    "security", "infosec", "appsec",
+    "blockchain", "solidity", "compiler", "systems engineer", "system engineer",
+    "embedded", "firmware", "hardware", "robotics", "autonomy",
+    "infrastructure", "platform engineer",
+    "technical staff", "mts",
+    "qa", "sdet", "test engineer", "test automation",
+    "solutions engineer", "product engineer", "design engineer",
+    "quant", "quantitative", "trader", "trading",
+    "computational", "developer advocate", "devrel",
+)
+TECH_RE = re.compile(
+    r"(?<![a-z])(" + "|".join(re.escape(t) for t in TECH_TERMS) + r")(?![a-z])",
+    re.I,
+)
+
+
+def is_tech_job(title):
+    """是否属于技术/工程岗（只看岗位标题）。
+
+    刻意不引入公司描述/职位摘要作为信号：创业公司常在简介里写 "AI"、"platform"
+    之类词，用它做判定会让 "Creative Director"、"VP, Analytics" 这类岗位漏网。
+    """
+    return bool(TECH_RE.search(title or ""))
+
+
 
 def classify(title, jtype=""):
     """intern / newgrad / experienced
@@ -352,13 +393,23 @@ def main():
 
     res = {}
     with sync_playwright() as pw:
-        b = pw.chromium.launch(headless=True, executable_path=CHROME,
-                               args=["--disable-blink-features=AutomationControlled"])
+        launch_kw = {"headless": True,
+                     "args": ["--disable-blink-features=AutomationControlled"]}
+        # 优先用系统 Chrome；CI / GitHub Actions 里没有系统 Chrome，
+        # 回退到 Playwright 自带 Chromium（需要先 `playwright install chromium`）。
+        use_system_chrome = os.path.exists(CHROME)
+        if use_system_chrome:
+            launch_kw["executable_path"] = CHROME
+        else:
+            print("  -- 未找到系统 Chrome，回退到 Playwright 自带 Chromium",
+                  file=sys.stderr)
+        b = pw.chromium.launch(**launch_kw)
 
         def new_ctx():
             # 每个站点独立上下文：避免上一个站点的后台请求拖垮下一个
-            c = b.new_context(user_agent=UA, viewport={"width": 1440, "height": 900},
-                              locale="en-US", timezone_id="America/New_York")
+            kw = {"user_agent": UA} if use_system_chrome else {}
+            c = b.new_context(viewport={"width": 1440, "height": 900},
+                              locale="en-US", timezone_id="America/New_York", **kw)
             c.add_init_script(
                 "Object.defineProperty(navigator,'webdriver',{get:()=>undefined});")
             return c
@@ -389,13 +440,29 @@ def main():
         b.close()
 
     jobs = [j for v in res.values() for j in v]
+    # 剔除非技术岗（销售/财务/设计/HR/市场等）
+    tech_jobs, dropped = [], []
+    for j in jobs:
+        if is_tech_job(j.get("position")):
+            tech_jobs.append(j)
+        else:
+            dropped.append(j)
+    if dropped:
+        print("  剔除非技术岗 %d 条:" % len(dropped), file=sys.stderr)
+        for j in dropped:
+            print("    - %s | %s" % (j.get("company", ""), j.get("position", "")),
+                  file=sys.stderr)
+    jobs = tech_jobs
+
     with open(a.out, "w", encoding="utf-8") as f:
         json.dump({
             "scanned_at": datetime.datetime.now().isoformat(timespec="seconds"),
             "counts": {k: len(v) for k, v in res.items()},
+            "non_tech_dropped": len(dropped),
             "jobs": jobs,
         }, f, ensure_ascii=False, indent=2)
     print(json.dumps({"counts": {k: len(v) for k, v in res.items()},
+                      "non_tech_dropped": len(dropped),
                       "total": len(jobs), "out": a.out}, ensure_ascii=False),
           file=sys.stderr)
 

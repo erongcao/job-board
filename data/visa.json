@@ -1,0 +1,7747 @@
+{
+"updated": "2026-10-13",
+"source": "US DOL LCA Disclosure FY2026 Q1-Q3 (H-1B certified), 2025-10 ~ 2026-06",
+"note": "有记录≠接受CPT/OPT实习生；无记录≠一定不担保；以JD原文为准",
+"map": {
+"": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"2020 COMPANIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"20FOUR7VA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"2NDWAVE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"42DOT": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"66DEGREES": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"7 ELEVEN": {
+"s": "auto",
+"n": 57,
+"via": "auto"
+},
+"A DEC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ABACUS": {
+"s": "auto",
+"n": 29,
+"via": "auto"
+},
+"ABB": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AHL SAAF AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AI SECURITY INSTITUTE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AIA GROUP": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"AJAX": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"ALTEN": {
+"s": "auto",
+"n": 72,
+"via": "auto"
+},
+"ALTEN MEXICO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ALTEN TECHNOLOGY USA": {
+"s": "auto",
+"n": 72,
+"via": "auto"
+},
+"AMERICAN SYSTEMS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ANYBOTICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AQR": {
+"s": "auto",
+"n": 36,
+"via": "auto"
+},
+"ARC TERYX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ARSIEM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ASM": {
+"s": "auto",
+"n": 145,
+"via": "auto"
+},
+"ASML": {
+"s": "auto",
+"n": 409,
+"via": "auto"
+},
+"AST SPACEMOBILE": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"ATB TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ABBOTT": {
+"s": "auto",
+"n": 132,
+"via": "auto"
+},
+"ABNORMAL SECURITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ACADIAN ASSET MANAGEMENT": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"ACCENTURE": {
+"s": "auto",
+"n": 1495,
+"via": "auto"
+},
+"ACCENTURE FEDERAL SERVICES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ACCLAIM TECHNICAL SERVICES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ACRON AVIATION": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"ACRONIS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"ACTIONET": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"ACTIVATE INTERACTIVE PTE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ADOBE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ADVANCED INFO SERVICE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ADVANCED SPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AEROVIRONMENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AEROTECH": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"AFFIRM": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AFTERQUERY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AGILE DEFENSE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AGILENT": {
+"s": "auto",
+"n": 25,
+"via": "auto"
+},
+"AGILOFT": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"AIPRISE": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"AIMS COMMUNITY COLLEGE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AIR LIQUIDE": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"AIRBNB": {
+"s": "auto",
+"n": 164,
+"via": "auto"
+},
+"AIRBUS": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"AIRWALLEX": {
+"s": "auto",
+"n": 15,
+"via": "auto"
+},
+"AKUNA CAPITAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ALARM COM": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"ALATION": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"ALAYACARE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ALCON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ALEYSIAN": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"ALICE BOB": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ALIXPARTNERS": {
+"s": "auto",
+"n": 64,
+"via": "auto"
+},
+"ALLATA": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"ALLEGIANT": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"ALLEGION": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ALLEN CONTROL SYSTEMS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ALLIANCEBERNSTEIN": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ALLIED SOLUTIONS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ALLOY AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ALLSTATE": {
+"s": "auto",
+"n": 42,
+"via": "auto"
+},
+"ALMEDIA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ALMIRALL": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"ALO YOGA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ALTAGAS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AMTRUST INSURANCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AMADEUS": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"AMAZON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AMBROOK": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"AMCOR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AMENTUM": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"AMERICAN CENTURY INVESTMENTS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AMERICAN ELECTRIC POWER": {
+"s": "auto",
+"n": 15,
+"via": "auto"
+},
+"AMERICAN EQUITY": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"AMERICAN HEART ASSOCIATION": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"AMERICAN INTERNATIONAL GROUP": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"AMERISOURCEBERGEN": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AMERISURE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"AMGEN": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AMIRA LEARNING": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"AMMORTAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ANALOG DEVICES": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ANALYTIC PARTNERS": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"ANATOMAGE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ANCESTRY": {
+"s": "auto",
+"n": 67,
+"via": "auto"
+},
+"ANDREW MORGAN CONSULTING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ANDREWS COOPER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ANDURIL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ANKURA": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"ANTARES": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"ANTHELION CAPITAL": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"ANTHESIS GROUP": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"ANYMIND GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"APEX FINTECH SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"APEX TECHNOLOGY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"APPLOVIN": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"APPIAN": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"APPIER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"APPLE": {
+"s": "auto",
+"n": 4852,
+"via": "auto"
+},
+"APPLIED INNOVATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"APPLIED INTUITION": {
+"s": "auto",
+"n": 97,
+"via": "auto"
+},
+"APPLIED MATERIALS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"APPLIED SYSTEMS": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"APPTRONIK": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"APTIV": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ARCESIUM": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ARCH CAPITAL": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"ARCHER": {
+"s": "auto",
+"n": 156,
+"via": "auto"
+},
+"ARCTIC WOLF": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ARES MANAGEMENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ARGONNE NATIONAL LABORATORY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ARISTA NETWORKS": {
+"s": "auto",
+"n": 124,
+"via": "auto"
+},
+"ARITZIA": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"ARIZENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ARONDITE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ARROWSTREET CAPITAL": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"ARTEFACT": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"ARTERA": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"ASCEND": {
+"s": "auto",
+"n": 38,
+"via": "auto"
+},
+"ASCENSUS": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"ASHBY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ASPENTECH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ASSURED GUARANTY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ASSYST": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"ASTERA INSTITUTE": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"ASTRANIS SPACE TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ASTREYA": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"ASTRO MALAYSIA HOLDINGS BERHAD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ASURION": {
+"s": "auto",
+"n": 61,
+"via": "auto"
+},
+"ATHENE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AUDAX GROUP": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"AURELIAN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AUTO OWNERS INSURANCE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"AUTOSCOUT24": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AUTOSTORE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AUTODESK": {
+"s": "auto",
+"n": 189,
+"via": "auto"
+},
+"AUTOMOBILE CLUB OF SOUTHERN CALIFORNIA": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"AUXIS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"AVALORE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AVANADE": {
+"s": "auto",
+"n": 28,
+"via": "auto"
+},
+"AVIONYX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AVIS BUDGET GROUP": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"AVIVA": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"AVNET": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"AXCELIS": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"AXELERA AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AXON": {
+"s": "auto",
+"n": 129,
+"via": "auto"
+},
+"AXOS BANK": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"AXWAY": {
+"s": "auto",
+"n": 19,
+"via": "auto"
+},
+"BAGS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BBVA": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"BDO": {
+"s": "auto",
+"n": 56,
+"via": "auto"
+},
+"BINA UNIVERSITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BIP VENTURES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BTI SOLUTIONS": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"BACKBASE": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"BADGER METER": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"BAIRD": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"BAKER HUGHES": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"BALCHEM": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"BANK OF AMERICA": {
+"s": "auto",
+"n": 436,
+"via": "auto"
+},
+"BANK OF MONTREAL": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"BARCLAYS": {
+"s": "auto",
+"n": 638,
+"via": "auto"
+},
+"BARNES THORNBURG": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"BAXTER": {
+"s": "auto",
+"n": 12,
+"via": "auto"
+},
+"BAYUT DUBIZZLE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BEACON SOFTWARE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"BEAM THERAPEUTICS": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"BECOMING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BEDROCK ROBOTICS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BEGHOU CONSULTING": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"BELAY TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BELVEDERE TRADING": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BERKLEY INSURANCE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BERTRAM CAPITAL MANAGEMENT": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"BESTEX RESEARCH": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"BILD AI": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"BILLTRUST": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BINANCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BLACK CAPE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BLACK DUCK SOFTWARE": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"BLACKROCK": {
+"s": "auto",
+"n": 436,
+"via": "auto"
+},
+"BLACKSTONE": {
+"s": "auto",
+"n": 88,
+"via": "auto"
+},
+"BLEND": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"BLENHEIM CHALCOT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BLISSWAY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BLOCKTECH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BLUE CROSS BLUE SHIELD OF MASSACHUSETTS": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"BLUE CROSS AND BLUE SHIELD OF KANSAS": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"BLUE CROSS AND BLUE SHIELD OF NEBRASKA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BLUE ORIGIN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BLUECROSS BLUESHIELD OF TENNESSEE": {
+"s": "auto",
+"n": 22,
+"via": "auto"
+},
+"BOBYARD": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BOEING": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"BOOZ ALLEN": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"BORGWARNER": {
+"s": "auto",
+"n": 52,
+"via": "auto"
+},
+"BOSCH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BOSE": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"BOSON AI": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"BOTTOMLINE TECHNOLOGIES": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"BOWHEAD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BRACCO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BRACEBRIDGE CAPITAL": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"BRAIN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BRAVE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"BREE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BREVIUM": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"BRIGHT VISION TECHNOLOGIES": {
+"s": "auto",
+"n": 67,
+"via": "auto"
+},
+"BRIGHTSTAR AI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BRISTOL MYERS SQUIBB": {
+"s": "auto",
+"n": 184,
+"via": "auto"
+},
+"BROWN BROWN": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"BRUKER": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"BRUNO": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"BRUNSWICK": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BUREAU": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"BUYERLINK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BY LIGHT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BYBIT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"C SERV": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"C H ROBINSON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"C3 AI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CACI": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CAE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CAI": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CAMBA": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"CDK GLOBAL": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"CEWE GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CFC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CFD RESEARCH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CHANEL": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CHEP": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"CI T": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CIBC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CME GROUP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CNA INSURANCE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"CNX": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"COACH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COCC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CPI CARD GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CRC GROUP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CSC GENERATION": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"CSG": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"CTGT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CVS HEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CADENCE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CALYX CONTAINERS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CAMBRIA": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"CAMBRIDGE CONSULTANTS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CAMPBELL SOUP": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"CANADAVISA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CANONICAL": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CANTINA": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"CAPCO": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"CAPGEMINI": {
+"s": "auto",
+"n": 1469,
+"via": "auto"
+},
+"CAPITALAND": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CAPITAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CAPITAL ONE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CAPSTONE INVESTMENT ADVISORS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"CARDINAL HEALTH": {
+"s": "auto",
+"n": 123,
+"via": "auto"
+},
+"CARESOURCE": {
+"s": "auto",
+"n": 44,
+"via": "auto"
+},
+"CARIS LIFE SCIENCES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CARNEGIE MELLON UNIVERSITY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CARRIER": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"CARTER’S": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CARVANA": {
+"s": "auto",
+"n": 19,
+"via": "auto"
+},
+"CATERPILLAR": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CBOE GLOBAL MARKETS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CELONIS": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"CENOVUS ENERGY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CENSYS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"CENTIFIC": {
+"s": "auto",
+"n": 23,
+"via": "auto"
+},
+"CENTRAL HUDSON": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CENTRE FOR STRATEGIC INFOCOMM TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CENTRIC SOFTWARE": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"CERVED": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CESIUMASTRO": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CHAINGPT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CHALK": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"CHARLES RIVER ASSOCIATES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CHECKOUT COM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CHECKR": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"CHEERZ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CHEVRON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CHOICE HOTELS": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"CHOICE SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CHURCH DWIGHT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CIENA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CINCINNATI CHILDREN’S": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CIRRUS LOGIC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CITADEL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CITADEL SECURITIES": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CITI": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"CITY OF PHILADELPHIA": {
+"s": "auto",
+"n": 23,
+"via": "auto"
+},
+"CITY OF SAN FRANCISCO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CIVIS ANALYTICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CIVITTA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CLARA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CLARIOS": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"CLAY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CLAYTON": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"CLEAR STREET": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"CLEARWATER ANALYTICS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CLERKIE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CLIO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CLIPBOARD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CLOCKWORK SYSTEMS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CLOUDFLARE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"COSTAR GROUP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"COVAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COGNA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COHERE HEALTH": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"COHERENT SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COINBASE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"COINHAKO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COKE FLORIDA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COLLABORATIVE ROBOTICS": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"COMMERCE BANK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COMMURE": {
+"s": "auto",
+"n": 41,
+"via": "auto"
+},
+"COMMVAULT": {
+"s": "auto",
+"n": 40,
+"via": "auto"
+},
+"COMPOSIO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COMPUGROUP MEDICAL SE CO KGAA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CONAGRA BRANDS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CONCOURSE": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"CONDUCTORAI": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"CONGA": {
+"s": "auto",
+"n": 34,
+"via": "auto"
+},
+"CONNECTPREP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CONSUMERAFFAIRS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CONTINENTAL RESOURCES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CONTROL RISKS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"COOK MEDICAL": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"COPART": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"COPELAND": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"CORE MAIN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CORETECH SECURITY SERVICES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CORPAY": {
+"s": "auto",
+"n": 15,
+"via": "auto"
+},
+"CORROHEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CORVA": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"COTIVITI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"COURIER HEALTH": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"COVEO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COVESTRO": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"COWBOY SPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"COX": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CRACKER BARREL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CRAFTED STAFF": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CREATIO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CREATIVE ARTISTS AGENCY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CREST INDUSTRIES": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"CROWE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"CRUM FORSTER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CRUSOE": {
+"s": "auto",
+"n": 120,
+"via": "auto"
+},
+"CUBIC": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"CULTURE AMP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"CURTISS WRIGHT": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"CUSHMAN WAKEFIELD": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"CYLAKE": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"CYVL": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"D3 EMBEDDED": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DFW INTERNATIONAL AIRPORT": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"DICK S SPORTING GOODS": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"DISA TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DMA": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"DRW": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DV TRADING": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DXC TECHNOLOGY": {
+"s": "auto",
+"n": 41,
+"via": "auto"
+},
+"DAVITA KIDNEY CARE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DAIMLER TRUCK": {
+"s": "auto",
+"n": 33,
+"via": "auto"
+},
+"DAMEN SHIPREPAIR HARLINGEN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DANDY": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"DARK WOLF SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DATALAB USA": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"DATAROBOT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DATAVISOR": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"DATABRICKS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DATACOR": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DATADOG": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DAYTON FREIGHT": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"DEALER TIRE": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"DEE ZEE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"DEEP GENOMICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DEEPINTENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DEEPGRAM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DEETER ANALYTICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DEFINEX CONSULTING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DELOITTE": {
+"s": "auto",
+"n": 4206,
+"via": "auto"
+},
+"DELTA SOLUTIONS STRATEGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DELUXE": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"DEMIURGE STUDIOS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DENVER": {
+"s": "auto",
+"n": 109,
+"via": "auto"
+},
+"DESPEGAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DEUTSCHE BANK": {
+"s": "auto",
+"n": 108,
+"via": "auto"
+},
+"DEVSINC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DEXCOM": {
+"s": "auto",
+"n": 35,
+"via": "auto"
+},
+"DIGITALOCEAN": {
+"s": "auto",
+"n": 32,
+"via": "auto"
+},
+"DILITRUST": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DILIGENCEVAULT": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"DIMENSIONAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DIRECT AGENTS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DIRECT SUPPLY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DOCEBO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DOCPLANNER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DOCTRINE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DOCUSIGN": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"DOMINO DATA LAB": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DOORDASH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"DORMER PRAMET": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DOTDASH MEREDITH": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"DOW": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"DOW JONES": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"DRAFTKINGS": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"DRAPER": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"DREMIO": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"DRIVETIME": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"EMC": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"ENFOS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"EPOS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EQ BANK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EQL TECH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EQT CORPORATION": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"ERG": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EUROPEAN DYNAMICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ECLIPSE AUTOMATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ECOLAB": {
+"s": "auto",
+"n": 19,
+"via": "auto"
+},
+"EDENRED": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EDGERUN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EKIMETRICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ELANCO": {
+"s": "auto",
+"n": 41,
+"via": "auto"
+},
+"ELECTRIC RELIABILITY COUNCIL OF TEXAS": {
+"s": "auto",
+"n": 12,
+"via": "auto"
+},
+"ELEKTA": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"ELI HEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ELIRE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ELLATION": {
+"s": "auto",
+"n": 37,
+"via": "auto"
+},
+"ELSEVIER": {
+"s": "auto",
+"n": 22,
+"via": "auto"
+},
+"ELWOOD": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"EMBEDDING VC": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"EMBRY RIDDLE AERONAUTICAL UNIVERSITY": {
+"s": "auto",
+"n": 52,
+"via": "auto"
+},
+"EMERGENT LABS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"EMERGING TRAVEL GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EMPOWER AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ENBRIDGE": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"ENCORA": {
+"s": "auto",
+"n": 25,
+"via": "auto"
+},
+"ENCORD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ENDAVA": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"ENGINEERS GATE": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"ENOVA INTERNATIONAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ENPAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ENSEMBLE HEALTH PARTNERS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ENTARIAN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ENTERPRET": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ENTERPRISE": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"ENTRUST": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"EPIC GAMES": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"EQUATIV": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EQUIFAX": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"EQUIPMENTSHARE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"ERAM TALENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ESCAPE TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ESRI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ETSY": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"EULERITY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"EUPHORIC GLOBAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EUROMONITOR": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"EURONEXT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EVERFOX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EVERSANA": {
+"s": "auto",
+"n": 19,
+"via": "auto"
+},
+"EVERSEEN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EVERTZ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EVERWISE CREDIT UNION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EVOLUTIONIQ": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"EVOLVE SECURITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EXADEL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EXCELLUS BCBS": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"EXEGY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"EXELIXIS": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"EXIGER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"EXPEDIA GROUP": {
+"s": "auto",
+"n": 346,
+"via": "auto"
+},
+"F5": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FIS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FNZ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FOX": {
+"s": "auto",
+"n": 73,
+"via": "auto"
+},
+"FRONTIER TECHNOLOGY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FTI CONSULTING": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"FABLETICS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"FAIRE": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"FANDUEL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FANVUE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FARFETCH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FAROS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FASANARA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FEDERAL RESERVE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FERROVIAL": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"FEVER": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"FIDELITY CANADA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FIDELITY INVESTMENTS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FIGMA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FIGURE": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"FINANCEIT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FINANCIAL STATEMENT SERVICES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FIRST NATIONAL BANK": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"FIVE RINGS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FLATIRON HEALTH": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"FLATIRONS SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FLEX": {
+"s": "auto",
+"n": 33,
+"via": "auto"
+},
+"FLEXCOMPUTE": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"FLEXCAR": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"FLOURISH RESEARCH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FLOW TRADERS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FOCUSKPI": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"FORGE NANO": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"FORMLABS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FORMULA ONE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FRANKLIN ELECTRIC": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"FREDDIE MAC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"FREEDOM TECHNOLOGY SOLUTIONS GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FREEDOMPAY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FREEFORM": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"FRESH CONSULTING": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"FULLSCRIPT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"G RESEARCH": {
+"s": "auto",
+"n": 97,
+"via": "auto"
+},
+"G2": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GCM GROSVENOR": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GDIT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GE AEROSPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GE APPLIANCES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GE HEALTHCARE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GE VERNOVA": {
+"s": "auto",
+"n": 42,
+"via": "auto"
+},
+"GIGATEC ENGINEERING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GITAI": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"GLG": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GMO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GPC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GSK": {
+"s": "auto",
+"n": 50,
+"via": "auto"
+},
+"GTS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"GAME PLAN TECH": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"GARDA CAPITAL PARTNERS": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"GARNER HEALTH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GARTNER": {
+"s": "auto",
+"n": 32,
+"via": "auto"
+},
+"GAS SOUTH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GECKO ROBOTICS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GEMINI": {
+"s": "auto",
+"n": 28,
+"via": "auto"
+},
+"GENBIO AI": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"GENSCRIPT": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"GENERAC": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"GENERAL DYNAMICS BATH IRON WORKS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GENERAL DYNAMICS MISSION SYSTEMS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GENERAL MATTER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GENERAL MOTORS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GENESYS": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"GENETEC": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"GENEVA TRADING": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GENPACT": {
+"s": "auto",
+"n": 136,
+"via": "auto"
+},
+"GEOTAB": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"GIFTOGRAM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GILEAD SCIENCES": {
+"s": "auto",
+"n": 160,
+"via": "auto"
+},
+"GINI APPS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GIVECAMPUS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GLENCORE": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"GLIACELL TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GLOBAL LENDING SERVICES": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"GLOBAL PAYMENTS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"GLOBALFOUNDRIES": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GLOBUS MEDICAL": {
+"s": "auto",
+"n": 25,
+"via": "auto"
+},
+"GO AUTO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GOFUNDME": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"GOREEL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GOTO": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"GOVENTI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GOODWILL CENTRAL TEXAS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GOOGLE": {
+"s": "auto",
+"n": 7342,
+"via": "auto"
+},
+"GORDON FOOD SERVICE CANADA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GRAB": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"GRACO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GRAPHCORE": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"GRAYMATTER ROBOTICS": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"GRAYCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GREATAMERICA FINANCIAL SERVICES": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"GREENSKY": {
+"s": "auto",
+"n": 22,
+"via": "auto"
+},
+"GREENHECK GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GREPTILE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GRITT ROBOTICS": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"GROUNDSWELL": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"GROW FINANCIAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"GROW THERAPY": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"GUARDIAN": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"GUIDEPOINT SECURITY": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"GUIDESTONE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"GUIDEHOUSE": {
+"s": "auto",
+"n": 54,
+"via": "auto"
+},
+"H R BLOCK": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"H3X TECHNOLOGIES": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"HAI GROUP": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"HNTB": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"HP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"HP IQ": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"HACKERRANK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HADRIAN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HAEMONETICS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"HALEON": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"HALTER": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"HANDSHAKE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HARMAN": {
+"s": "auto",
+"n": 50,
+"via": "auto"
+},
+"HARRIS COMPUTER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HARVEY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"HAVAS": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"HAVOCAI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HAYDEN AI": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"HAYS ELECTRICAL SERVICES": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"HEADOUT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HEBBIA AI": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"HEDGE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HEINZ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HELIUX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HELLOFRESH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HELSING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HERMEUS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HEVO DATA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HEWLETT PACKARD ENTERPRISE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"HIEBING": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"HIGHMARK HEALTH": {
+"s": "auto",
+"n": 23,
+"via": "auto"
+},
+"HIRE HANGAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HITACHI": {
+"s": "auto",
+"n": 204,
+"via": "auto"
+},
+"HIVE": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"HOME DEPOT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"HORIZON MEDIA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HORIZON QUANTUM COMPUTING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HOUST": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HOVER": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"HOWDEN GROUP HOLDINGS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"HUDSON RIVER TRADING": {
+"s": "auto",
+"n": 42,
+"via": "auto"
+},
+"HUMANOID": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HUNTINGTON BANK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HUNTSMAN": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"HURON": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"HYANNIS PORT RESEARCH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"HYVE SOLUTIONS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"IAT INSURANCE GROUP": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"ICF": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ICONIQ CAPITAL": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"IDEXX": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"IDEAS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"IFF": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IG GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IGS ENERGY": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"IMA FINANCIAL GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ING": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"ION GROUP": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"IQVIA": {
+"s": "auto",
+"n": 156,
+"via": "auto"
+},
+"IRIUM SPAIN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ITA INTERNATIONAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IXL LEARNING": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"IAMBIC THERAPEUTICS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"IBERDROLA GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IDEAGEN": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"IDEOGRAM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IDLER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IGNITE IT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IGNITION BENEFITS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IMMUTA": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"IMPACT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INMOBI": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"INFOBIP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INGREDION": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"INLAND EMPIRE HEALTH PLAN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INMAR INTELLIGENCE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"INNOVATIONTEAM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INNOVATIVE DEFENSE TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INNOVATIVE SYSTEMS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"INSITU": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INSPIRED HR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INSPIRED THINKING GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INSTACART": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INSTAWORK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INSTITUTE OF FOUNDATION MODELS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INSTITUTIONAL SHAREHOLDER SERVICES ISS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INSULET": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"INSURIFY": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"INTACT": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"INTEGRAL FEDERAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INTEL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"INTERSYSTEMS": {
+"s": "auto",
+"n": 53,
+"via": "auto"
+},
+"INTERPLAY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INTERSTATE WASTE SERVICES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INVESCO": {
+"s": "auto",
+"n": 39,
+"via": "auto"
+},
+"IRIDIUM SATELLITE COMMUNICATIONS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"IRONCLAD": {
+"s": "auto",
+"n": 17,
+"via": "auto"
+},
+"ITRON": {
+"s": "auto",
+"n": 33,
+"via": "auto"
+},
+"IVY HEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JLL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JND": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"JPMORGAN CHASE": {
+"s": "auto",
+"n": 2743,
+"via": "auto"
+},
+"JABIL": {
+"s": "auto",
+"n": 52,
+"via": "auto"
+},
+"JADE GLOBAL": {
+"s": "auto",
+"n": 15,
+"via": "auto"
+},
+"JAMF": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JANE STREET": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"JAVELIN GLOBAL COMMODITIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JERRY": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"JERSEYSTEM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JOBANDTALENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JOHNSON JOHNSON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"JOHNSON CONTROLS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"JUICEBOX": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"JULIUS BAER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JUMIO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"JUMP TRADING": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"JUNIPER SQUARE": {
+"s": "auto",
+"n": 31,
+"via": "auto"
+},
+"JUNO": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"K1": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"K2 SPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KBR": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"KEV GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KLA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"KMS TECHNOLOGY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KONE": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"KSB": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KAIZEN ANALYTIX": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"KALEPA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KARDEX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KASTLE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"KENECT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KENSHO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"KENWAY CONSULTING": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"KEPLER COMMUNICATIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KETCH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KETJEN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KEYBANK": {
+"s": "auto",
+"n": 28,
+"via": "auto"
+},
+"KEYWORDS STUDIOS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KHAN ACADEMY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"KIMBERLY CLARK": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"KINAXIS": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"KION GROUP": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"KITWARE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"KLAVIYO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"KNOWBE4": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"KOAH LABS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"KOBIE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KODIAK ROBOTICS": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"KOGNITOS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"KONRAD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KPLER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"KYNDRYL": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"LEGO": {
+"s": "auto",
+"n": 19,
+"via": "auto"
+},
+"LILT": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"LMI INNOVATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LSEG": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LUXASIA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LABCORP": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"LABELBOX": {
+"s": "auto",
+"n": 17,
+"via": "auto"
+},
+"LAMINAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LATER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LAVA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LEAN TECHNIQUES": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"LEIDOS": {
+"s": "auto",
+"n": 70,
+"via": "auto"
+},
+"LEMONLIME": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LENDABLE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LENNOX": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"LEXINGTON MEDICAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LEXISNEXIS": {
+"s": "auto",
+"n": 215,
+"via": "auto"
+},
+"LEXISNEXIS RISK SOLUTIONS": {
+"s": "auto",
+"n": 173,
+"via": "auto"
+},
+"LIBERTY MUTUAL": {
+"s": "auto",
+"n": 95,
+"via": "auto"
+},
+"LIBERTY UNIVERSITY": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"LIFE FITNESS": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"LIGHT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LIGHT WONDER": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"LIGHTFIELD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LILA SCIENCES": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"LILLY": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"LIMRUN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LITELLM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LITTELFUSE": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"LIVERAMP": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"LIVESTOCK INFORMATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LOBLAW COMPANIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LOCKE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"LODESTAR": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"LOGICALIS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LOGITECH": {
+"s": "auto",
+"n": 34,
+"via": "auto"
+},
+"LOKAL APP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LOMBARD ODIER": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"LONZA": {
+"s": "auto",
+"n": 69,
+"via": "auto"
+},
+"LOVE BONITO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LOWE’S": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LUCA IQ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LUCID MOTORS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LUCIDYA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LUMENTUM": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"LUPUS CONSULTING ZRT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"LYFT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"M T BANK": {
+"s": "auto",
+"n": 43,
+"via": "auto"
+},
+"METECS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MFS": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"MGM RESORTS": {
+"s": "auto",
+"n": 23,
+"via": "auto"
+},
+"MORSE CORP CO OP OPPORTUNITIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MSD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MUFG": {
+"s": "auto",
+"n": 67,
+"via": "auto"
+},
+"MACKENZIE INVESTMENTS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MAERSK": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"MAGNA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MAGNET FORENSICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MAINCODE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MAN GROUP": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"MANGO": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"MANHATTAN ASSOCIATES": {
+"s": "auto",
+"n": 103,
+"via": "auto"
+},
+"MANULIFE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MARBLE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MARINA BAY SANDS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MARMON": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"MARS": {
+"s": "auto",
+"n": 35,
+"via": "auto"
+},
+"MARSH MCLENNAN": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"MARVELL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MASS GENERAL BRIGHAM": {
+"s": "auto",
+"n": 80,
+"via": "auto"
+},
+"MASSMUTUAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MASTERBORN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MASTERCONTROL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MASTERCARD": {
+"s": "auto",
+"n": 244,
+"via": "auto"
+},
+"MATCH GROUP": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"MATHTECH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MAXIMOR AI": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"MCKESSON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MEDIAALPHA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MEDIARADAR": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"MEDLINE": {
+"s": "auto",
+"n": 250,
+"via": "auto"
+},
+"MEDTRONIC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MEGAZONE CLOUD US": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MEIJER": {
+"s": "auto",
+"n": 33,
+"via": "auto"
+},
+"MELIUS": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"MENDIX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MEOW": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"MERCEDES BENZ TECH INNOVATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MERCOR": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MERCURY": {
+"s": "auto",
+"n": 43,
+"via": "auto"
+},
+"MERKLE SCIENCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"META": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"METAPHOR": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"METOVA FEDERAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"METRON": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"MICHELIN": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MICRON TECHNOLOGY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MICROSOFT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MIDLAND STATES BANK": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"MIELE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MILA QUEBEC INSTITUTE OF ARTIFICIAL INTELLIGENCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MILL": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"MILWAUKEE TOOL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MIMECAST": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MINDEX": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"MINITAB": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"MINTED": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"MIRAGE": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"MISTRAL AI": {
+"s": "auto",
+"n": 48,
+"via": "auto"
+},
+"MITER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MOBILEYE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MODAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MODERN INTELLIGENCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MODERNA": {
+"s": "auto",
+"n": 27,
+"via": "auto"
+},
+"MOLLIE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MOLOCO": {
+"s": "auto",
+"n": 52,
+"via": "auto"
+},
+"MOMENTIVE": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"MOMOS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MONGODB": {
+"s": "auto",
+"n": 89,
+"via": "auto"
+},
+"MONKS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MONZO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MOOG": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MORGAN STANLEY": {
+"s": "auto",
+"n": 942,
+"via": "auto"
+},
+"MORNINGSTAR": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"MOTOROLA SOLUTIONS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"MUON": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MUSTARD SYSTEMS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MYADVICE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MYFUNDED FUTURES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"MYKARGO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"N IX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"N1": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"N26": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NCR": {
+"s": "auto",
+"n": 27,
+"via": "auto"
+},
+"NIH NCBI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NIO": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"NJM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NPS PRISM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NTT": {
+"s": "auto",
+"n": 343,
+"via": "auto"
+},
+"NVIDIA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NXP SEMICONDUCTORS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NANOPATH": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"NANYANG TECHNOLOGICAL UNIVERSITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NASDAQ": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"NATWEST GROUP": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"NATIONAL INFORMATION SOLUTIONS COOPERATIVE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NATIONAL JOURNAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NATIONSBENEFITS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NATIXIS": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"NAVAN": {
+"s": "auto",
+"n": 28,
+"via": "auto"
+},
+"NEIGHBOR": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"NELLY SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NELNET": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NEON": {
+"s": "auto",
+"n": 35,
+"via": "auto"
+},
+"NETFLIX": {
+"s": "auto",
+"n": 351,
+"via": "auto"
+},
+"NETIC": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"NETSKOPE": {
+"s": "auto",
+"n": 25,
+"via": "auto"
+},
+"NETSMART": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"NEUBERGER BERMAN": {
+"s": "auto",
+"n": 25,
+"via": "auto"
+},
+"NEUROMORPHIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NEURON7": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"NEW ERA TECHNOLOGY": {
+"s": "auto",
+"n": 41,
+"via": "auto"
+},
+"NEW RELIC": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"NEWFOLD DIGITAL": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"NEWREZ": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NEWSBREAK": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"NEXT INSURANCE": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"NIANTIC SPATIAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NIDEC": {
+"s": "auto",
+"n": 17,
+"via": "auto"
+},
+"NIGHTWING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NIKE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NINJAHOLDINGS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NISSAN": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"NOOKS": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"NORDSON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NORTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NORTHEASTERN UNIVERSITY": {
+"s": "auto",
+"n": 62,
+"via": "auto"
+},
+"NORTHROP GRUMMAN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NOTION": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"NOVA TALENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NOVA TECH ENGINEERING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NOVARTIS": {
+"s": "auto",
+"n": 134,
+"via": "auto"
+},
+"NU QUANTUM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NUCLEAR PROMISE X": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NUCLEUS SECURITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NUCLEUSTEQ": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"NURO": {
+"s": "auto",
+"n": 38,
+"via": "auto"
+},
+"NUVEI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"O REILLY AUTO PARTS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OBRIO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OCC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"OMERS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OMNIA PARTNERS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"OPEN DATA JOBS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OPSWAT": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"OAK VIEW GROUP": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"OAKTREE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"OBJECTIVE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OBSERVE AI": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"OBSIDIAN SECURITY": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"OCHSNER HEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OCTOPUS ENERGY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ODDIN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ODEN TECHNOLOGIES": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"ODYSSEY SYSTEMS": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"OKLAHOMA STATE GOVERNMENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OLD MISSION CAPITAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"OLO": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"OMEGAHIRES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OMILIA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OMNISTRATE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OMYA": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"ONLOGIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ONE IMPRESSION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ONEIMAGING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ONEPAY": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"ONESOURCE VIRTUAL": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"ONTIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ONYX CAPITAL GROUP LIMITED": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OPENAI": {
+"s": "auto",
+"n": 210,
+"via": "auto"
+},
+"OPENTABLE": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"OPENX TECHNOLOGIES": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"OPPFI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OPTIMOVE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"OPTIMUM": {
+"s": "auto",
+"n": 17,
+"via": "auto"
+},
+"OPTIVER": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"OPUSCLIP": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"ORACLE": {
+"s": "auto",
+"n": 790,
+"via": "auto"
+},
+"ORIGIN": {
+"s": "auto",
+"n": 36,
+"via": "auto"
+},
+"ORION HEALTH": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"ORION INNOVATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OSAIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"OSHKOSH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"OTIS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"OTTER AI": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"P G PROCTER GAMBLE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PDT PARTNERS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PIMCO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PMG": {
+"s": "auto",
+"n": 38,
+"via": "auto"
+},
+"PPLSI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRA GROUP": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"PROS HOLDINGS": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"PTC": {
+"s": "auto",
+"n": 38,
+"via": "auto"
+},
+"PACIFIC FUSION": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"PACIFIC LIFE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PAIRED": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PALANTIR": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PALONA AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PANGRAM LABS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PAPA JOHN S": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"PARADEDB": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PARAFIN": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"PAREXEL": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"PARIVEDA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PARSONS": {
+"s": "auto",
+"n": 41,
+"via": "auto"
+},
+"PARTLY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PASSPORT": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"PATH ROBOTICS": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"PATHAI": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"PAVAGO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PAX8": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"PAYPAL": {
+"s": "auto",
+"n": 742,
+"via": "auto"
+},
+"PAYONEER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PEAR VC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PENN STATE": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"PENNANT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PEOPLETEC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PEPSICO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PERATON": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"PERCHWELL": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"PERFECTSERVE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PERMITFLOW": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"PERNOD RICARD": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PERPAY": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PERPLEXITY": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"PERSEUS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PERSONA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PERSONA AI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PERSONIFY HEALTH": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"PETAL SURGICAL": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"PETERSON TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PETRA SECURITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PHILIPS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PHOEBE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"PINGWIND": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"PINNACLE": {
+"s": "auto",
+"n": 68,
+"via": "auto"
+},
+"PINTEREST": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PLAINS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"PLAUD": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"PLEXUS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PLOT TECHNOLOGIES": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"PLURALIS RESEARCH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PODIUM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"POET": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"POINT": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"POINT C": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"POINTCLICKCARE": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"POLARIS": {
+"s": "auto",
+"n": 28,
+"via": "auto"
+},
+"POLICYME": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PONY AI": {
+"s": "auto",
+"n": 12,
+"via": "auto"
+},
+"PORTCAST": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"POSTERA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"POWERSCHOOL": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"PRACTICETEK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRAIRIE VIEW A M UNIVERSITY": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"PRECISELY": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"PRECISION AQ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRECISION MEDICINE GROUP": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"PREMERA": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"PREMIER": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PRESSW": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRICELINE": {
+"s": "auto",
+"n": 12,
+"via": "auto"
+},
+"PRIMIENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRIOR LABS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PROCOGIA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRODIGAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRODUCT AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRODUCTIV TEAM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PRODUCTIVE PLAYHOUSE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PROFLUENT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PROMETHEUM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PROOFPOINT": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"PROPHET SECURITY": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"PRUDENTIAL": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"PRYSMIAN GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"PURE STORAGE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"PWC": {
+"s": "auto",
+"n": 276,
+"via": "auto"
+},
+"PYLON": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"Q BLOCK COMPUTING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"Q2": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"QODE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"QUADIENT": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"QUALIFIED HEALTH PBC": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"QUALTRICS": {
+"s": "auto",
+"n": 30,
+"via": "auto"
+},
+"QUALUS": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"QUALYS": {
+"s": "auto",
+"n": 48,
+"via": "auto"
+},
+"QUANTBOT TECHNOLOGIES": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"QUANTCAST": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"QUANTIFIND": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"QUANTIPHI": {
+"s": "auto",
+"n": 44,
+"via": "auto"
+},
+"QUANTIQ": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"QUANTUM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"QUANTUM SIGNAL AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"QUORA": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"R1 RCM": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"RAVE AEROSPACE": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"RBC ROYAL BANK OF CANADA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REA GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REGENT": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"REI SYSTEMS": {
+"s": "auto",
+"n": 34,
+"via": "auto"
+},
+"RELX": {
+"s": "auto",
+"n": 205,
+"via": "auto"
+},
+"RIVR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RNA RENTOKIL NORTH AMERICA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RVO HEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RADIANCE TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RADIANT": {
+"s": "auto",
+"n": 50,
+"via": "auto"
+},
+"RAGLE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"RAKUTEN ADVERTISING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RAKUTEN KOBO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RAMP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"RANGE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"RATIONAL": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"RAYMOND JAMES": {
+"s": "auto",
+"n": 68,
+"via": "auto"
+},
+"RAYTHEON": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RAZER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RE:BUILD MANUFACTURING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REAL TIME INNOVATIONS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"REALPAGE": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"REALM": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"RECIDIVIZ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RED HAT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"RED VENTURES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REDHORSE CORPORATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REFLECT ORBITAL": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"REFORMATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REGAL IO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REGENERON": {
+"s": "auto",
+"n": 329,
+"via": "auto"
+},
+"RELATIVITY": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"RELATIVITY SPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RELAY": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"RELIAQUEST": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REMARCABLE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RENAULT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RENTOKIL INITIAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REONIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"REPLIT": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"REPUBLIC SERVICES": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"REPUTATION": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"RESMED": {
+"s": "auto",
+"n": 33,
+"via": "auto"
+},
+"RESONETICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RESTAURANT BRANDS INTERNATIONAL": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"RESULTANT": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"REVVITY": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"RHODA AI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"RHOMBUS": {
+"s": "auto",
+"n": 12,
+"via": "auto"
+},
+"RILLA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"RIOT GAMES": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"RIVERDALE COUNTRY SCHOOL": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"RIVIAN": {
+"s": "auto",
+"n": 649,
+"via": "auto"
+},
+"ROB LEVINE LAW": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ROBINHOOD": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ROBLOX": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ROBOTICS AND AI INSTITUTE": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"ROCHE": {
+"s": "auto",
+"n": 34,
+"via": "auto"
+},
+"ROCHESTER REGIONAL HEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ROCKET COMPANIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ROCKET LAB": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"ROCKET MONEY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ROCKWELL AUTOMATION": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"RODAN ENERGY SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ROKU": {
+"s": "auto",
+"n": 52,
+"via": "auto"
+},
+"ROOT SOURCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ROVER COM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ROYAL BANK OF CANADA": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"ROYAL GOLDEN EAGLE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RUGGED ROBOTICS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"RULA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RYAN": {
+"s": "auto",
+"n": 19,
+"via": "auto"
+},
+"S P GLOBAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SAGE": {
+"s": "warn",
+"n": 0,
+"via": "curated"
+},
+"SAP FIONEER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SAS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SBS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SBT GLOBAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SEB": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SEL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SEON": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SEP": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SGS": {
+"s": "auto",
+"n": 41,
+"via": "auto"
+},
+"SHI": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"SIXT": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"SJI SOUTH JERSEY INDUSTRIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SMX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SOSI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SOTI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SPAICE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SQUAD PL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SRC CAN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SRI INTERNATIONAL": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"SS C": {
+"s": "auto",
+"n": 98,
+"via": "auto"
+},
+"STR": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"SWBC": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SAALEX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SAGESURE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SAGILITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SAILPOINT": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"SALESFORCE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SALMON GROUP": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SAMSARA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SAMSUNG": {
+"s": "auto",
+"n": 475,
+"via": "auto"
+},
+"SAN FRANCISCO CAMPUS FOR JEWISH LIVING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SANDVIK": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"SANOFI": {
+"s": "auto",
+"n": 76,
+"via": "auto"
+},
+"SAPUTO": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SARDINE": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SARNOVA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SARONIC TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SATORI ANALYTICS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SCALE AI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SCALE ARMY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SCHONFELD": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SCHOOLSFIRST FCU": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SCHREIBER FOODS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SCIENTECH RESEARCH CAPITAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SEATGEEK": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SECURIAN FINANCIAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SEMGREP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SEMIOS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SEMTECH": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"SENECA HOLDINGS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SENTINEL": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"SENTINEL GROUP": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"SENTRY": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"SERVAL": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SERVICENOW": {
+"s": "auto",
+"n": 545,
+"via": "auto"
+},
+"SEZZLE": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"SHARKNINJA": {
+"s": "auto",
+"n": 47,
+"via": "auto"
+},
+"SHIELD AI": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"SHIFT TECHNOLOGIES": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"SHIPMONK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SHOPBACK": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SHURE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SHYFTLABS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIEMENS HEALTHINEERS": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"SIERRA": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SIERRA NEVADA CORPORATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIERRA SPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIFT": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"SIGMA COMPUTING": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SIGMA DEFENSE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIGNET JEWELERS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIGNIFICANCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIGNIFY": {
+"s": "auto",
+"n": 20,
+"via": "auto"
+},
+"SILICON LABS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIMIS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIMVENTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIMON PROPERTY GROUP": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SIMPLISAFE": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"SIMPSON STRONG TIE": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"SIMULAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIMULMEDIA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SINGAPORE POST": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SINGAPORE PUBLIC SERVICE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SINGLE GRAIN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SINGLESTORE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SINGULIER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SIRONA MEDICAL": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SKANSKA": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"SKYDIO": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"SLATE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SMADEX SLU": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SMARTBEAR": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SMARTFLOWER SOLAR": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SMARTLY IO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SNAP": {
+"s": "auto",
+"n": 224,
+"via": "auto"
+},
+"SNAP FINANCE": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"SNAPSCALE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SNOWFLAKE": {
+"s": "auto",
+"n": 423,
+"via": "auto"
+},
+"SOLACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SOLAREDGE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"SOLOPULSE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SONAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SONIO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SONOS": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"SONY": {
+"s": "auto",
+"n": 118,
+"via": "auto"
+},
+"SOUTHSTATE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SPACE DYNAMICS LABORATORY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SPACEX": {
+"s": "auto",
+"n": 28,
+"via": "auto"
+},
+"SPARE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SPARTANNASH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SPORTRADAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SPOTON": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SPRUCE": {
+"s": "auto",
+"n": 45,
+"via": "auto"
+},
+"SQUAREPOINT CAPITAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STACKADAPT": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"STANLEY BLACK DECKER": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"STARLING BANK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STATE STREET": {
+"s": "auto",
+"n": 263,
+"via": "auto"
+},
+"STEAMPUNK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STEEL DYNAMICS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"STEERBRIDGE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STEPSTONE GROUP": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"STIFEL": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"STOKE SPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STORYTELLER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STRADA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"STRATEGIC WORKFORCE DEVELOPMENT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STRIPE": {
+"s": "auto",
+"n": 245,
+"via": "auto"
+},
+"STRIVEWORKS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"STRYKER": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"STUDY COM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SUDDATH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SUN KING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SUN LIFE": {
+"s": "auto",
+"n": 16,
+"via": "auto"
+},
+"SUPERHUMAN": {
+"s": "auto",
+"n": 34,
+"via": "auto"
+},
+"SUPPORTYOURAPP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SUSQUEHANNA INTERNATIONAL GROUP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SUVODA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SWARM AERO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SWIFT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"SWIVEL": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"SYMBOTIC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"SYMPHONY COMMUNICATION SERVICES": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"SYNCHRONY BANK": {
+"s": "auto",
+"n": 57,
+"via": "auto"
+},
+"SYNTIANT": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"SYSCO": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"SYSDIG": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"SYSKA HENNESSY GROUP": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"T ROWE PRICE": {
+"s": "auto",
+"n": 34,
+"via": "auto"
+},
+"TD BANK": {
+"s": "auto",
+"n": 52,
+"via": "auto"
+},
+"TD SYNNEX": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"TELUS DIGITAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TIAA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TJX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TMX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TTM TECHNOLOGIES": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TWG GLOBAL AI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TABBY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TAKEDA": {
+"s": "auto",
+"n": 106,
+"via": "auto"
+},
+"TAKTILE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"TALAN": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"TALENT HACKERS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TALOS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TANIUM": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TASKUS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"TATITLEK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TECHINSIGHTS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TECHERY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TECHNOLOGY SERVICE CORPORATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TELETRACKING TECHNOLOGIES": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"TELEDYNE": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"TELEPERFORMANCE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TELESKOPE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"TENCENT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TENET3": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TENSOROPS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TENSORWAVE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TERRA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TERRACLEAR": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TERRANOVA": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"THALES": {
+"s": "auto",
+"n": 49,
+"via": "auto"
+},
+"THE BATTERY NETWORK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"THE BRATTLE GROUP": {
+"s": "auto",
+"n": 17,
+"via": "auto"
+},
+"THE CADMUS GROUP": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"THE CIGNA GROUP": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"THE GLOBAL TALENT CO": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"THE HARTFORD": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"THE KENDALL GROUP": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"THE NEW YORK METS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"THE UNIVERSITY OF TEXAS AT AUSTIN": {
+"s": "auto",
+"n": 106,
+"via": "auto"
+},
+"THERMO FISHER SCIENTIFIC": {
+"s": "auto",
+"n": 122,
+"via": "auto"
+},
+"THOMSON REUTERS": {
+"s": "auto",
+"n": 35,
+"via": "auto"
+},
+"THORNTON TOMASETTI": {
+"s": "auto",
+"n": 31,
+"via": "auto"
+},
+"THOUGHTWORKS": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"THRIVENT": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TIKTOK": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TOGETHER AI": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TOKIO MARINE HCC": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TOMOFUN FURBO PET CAMERA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TORC ROBOTICS": {
+"s": "auto",
+"n": 63,
+"via": "auto"
+},
+"TORUS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"TOWER RESEARCH CAPITAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TOYOTA": {
+"s": "auto",
+"n": 121,
+"via": "auto"
+},
+"TOYOTA RESEARCH INSTITUTE": {
+"s": "auto",
+"n": 19,
+"via": "auto"
+},
+"TRADING212": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TRANSPERFECT": {
+"s": "auto",
+"n": 13,
+"via": "auto"
+},
+"TRANSUNION": {
+"s": "auto",
+"n": 93,
+"via": "auto"
+},
+"TRANSACTION NETWORK SERVICES": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"TRANSAMERICA": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"TRANSMED": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TRAVELERS": {
+"s": "auto",
+"n": 45,
+"via": "auto"
+},
+"TREEHOUSE FOODS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TREND MICRO": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"TREXQUANT": {
+"s": "auto",
+"n": 22,
+"via": "auto"
+},
+"TRICORBRAUN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TRIMBLE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"TRIPADVISOR": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"TRIUMPH ARCADE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TRUE ANOMALY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TRUELOGIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TRYNEARBY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TUBESCIENCE": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"TUBI": {
+"s": "auto",
+"n": 27,
+"via": "auto"
+},
+"TULIP INTERFACES": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"TURION SPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TWILIO": {
+"s": "auto",
+"n": 68,
+"via": "auto"
+},
+"TWITCH": {
+"s": "auto",
+"n": 39,
+"via": "auto"
+},
+"TWO95 INTERNATIONAL": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"TYK TECHNOLOGIES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"TYSON FOODS": {
+"s": "auto",
+"n": 27,
+"via": "auto"
+},
+"U HAUL": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"UASI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"UDIG": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"US FOODS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"UIPATH": {
+"s": "auto",
+"n": 25,
+"via": "auto"
+},
+"ULINE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"UNISYS": {
+"s": "auto",
+"n": 29,
+"via": "auto"
+},
+"UNITED PLACEMENT GROUP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"UNIVERA HEALTHCARE": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"UNIVERSIDAD IEU S C": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"UNIVERSITY OF NOTRE DAME": {
+"s": "auto",
+"n": 59,
+"via": "auto"
+},
+"UNIVERSITY OF PENNSYLVANIA": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"UNIVERSITY OF ROCHESTER": {
+"s": "auto",
+"n": 114,
+"via": "auto"
+},
+"UNIVERSITY OF WASHINGTON": {
+"s": "auto",
+"n": 134,
+"via": "auto"
+},
+"UPSTART": {
+"s": "auto",
+"n": 46,
+"via": "auto"
+},
+"V4C AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VELUX": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VIAVI": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"VISEO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VTG": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VALENCY SYSTEMS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VALEO": {
+"s": "auto",
+"n": 45,
+"via": "auto"
+},
+"VALINOR": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"VALITANA": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"VALNET": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"VALNET TECH SITES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VALON TECH": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"VALSOFT CORPORATION": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VANCOUVER COASTAL HEALTH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VANDERLANDE": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"VANGUARD": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"VARDA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VARSITY BRANDS": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"VECTRA AI": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"VEEAM": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"VEOLIA": {
+"s": "auto",
+"n": 26,
+"via": "auto"
+},
+"VERCEL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"VEREGY": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"VERIPARK": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VERKADA": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"VERMEER": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"VERTEX": {
+"s": "auto",
+"n": 184,
+"via": "auto"
+},
+"VESTMARK INTERNSHIP PROGRAM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VETERANS UNITED": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VIA LOGIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VIA TRANSPORTATION": {
+"s": "auto",
+"n": 12,
+"via": "auto"
+},
+"VIAM": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"VIGET": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"VIKING GLOBAL INVESTORS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"VIRIDIEN": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"VIRTU FINANCIAL": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"VISA": {
+"s": "auto",
+"n": 582,
+"via": "auto"
+},
+"VISEVEN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VISIER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VISION RT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VISTRA": {
+"s": "auto",
+"n": 23,
+"via": "auto"
+},
+"VITAL LYFE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VIVSOFT TECHNOLOGIES": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"VIZ": {
+"s": "auto",
+"n": 5,
+"via": "auto"
+},
+"VIZIENT": {
+"s": "auto",
+"n": 21,
+"via": "auto"
+},
+"VOLAREN INC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VOLDEX GAMES": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VOLKSWAGEN GROUP DIGITAL SOLUTIONS [PORTUGAL]": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VORTEXA": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"VOYA FINANCIAL": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"VOYANTIS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WATI IO": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WEX": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"WGU WESTERN GOVERNORS UNIVERSITY": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WHOOP": {
+"s": "auto",
+"n": 24,
+"via": "auto"
+},
+"WPP": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"WALT DISNEY": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"WASABI": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"WATTS WATER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WAYFLYER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WAYMARK": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"WAYMO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"WERIDE AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WEALTH COM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WEFUNDER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WELLS FARGO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"WELOCALIZE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"WESTERN SOUTHERN FINANCIAL GROUP": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"WHITEWATER MIDSTREAM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WILLIAM BLAIR": {
+"s": "auto",
+"n": 11,
+"via": "auto"
+},
+"WILLIAMS RACING": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WILSON ELSER": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"WINDBORNE SYSTEMS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"WING": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"WING ASSISTANT": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WINGTRA AG": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WINTERMUTE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WINTON": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WONDER": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WONDERBOTZ": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WORKATO": {
+"s": "auto",
+"n": 14,
+"via": "auto"
+},
+"WORKDAY": {
+"s": "auto",
+"n": 253,
+"via": "auto"
+},
+"WORLD FOOD PROGRAMME": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WORLD FUEL SERVICES": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"WORLD VISION": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"WYETECH": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"WYND LABS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"XPENG": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"XAIRA THERAPEUTICS": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"XCEL ENERGY": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"XCIMER ENERGY": {
+"s": "no",
+"n": 0,
+"via": "curated"
+},
+"XERO": {
+"s": "auto",
+"n": 10,
+"via": "auto"
+},
+"XSOLLA": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"XTILLION": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"YEXT": {
+"s": "auto",
+"n": 7,
+"via": "auto"
+},
+"YIPITDATA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"YOTTA LABS": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"YOUGOV": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"YOUTRIP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"YULISTA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ZEISS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ZOLL": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"ZT SYSTEMS": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"ZURU": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"ZEFR": {
+"s": "auto",
+"n": 4,
+"via": "auto"
+},
+"ZEKELMAN": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ZELIS": {
+"s": "auto",
+"n": 6,
+"via": "auto"
+},
+"ZEST AI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ZILLOW": {
+"s": "auto",
+"n": 63,
+"via": "auto"
+},
+"ZINCFIVE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ZIP": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"ZIPRECRUITER": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ZIPLINE": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"ZOETIS": {
+"s": "auto",
+"n": 46,
+"via": "auto"
+},
+"ZOOX": {
+"s": "auto",
+"n": 319,
+"via": "auto"
+},
+"ZURN ELKAY WATER SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"ZYNGA": {
+"s": "auto",
+"n": 18,
+"via": "auto"
+},
+"ABRA": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"AMERICANREDCROSS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"BASSPRO": {
+"s": "ok",
+"n": 0,
+"via": "curated"
+},
+"BP": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"DENTSU": {
+"s": "auto",
+"n": 8,
+"via": "auto"
+},
+"EDMENTUM": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"FGF BRANDS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"HATCH I T": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"I3 CORPS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IA FINANCIAL GROUP": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"IHORIZONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"IPIPELINE": {
+"s": "auto",
+"n": 1,
+"via": "auto"
+},
+"IRHYTHM": {
+"s": "auto",
+"n": 3,
+"via": "auto"
+},
+"INMUSIC": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"INDIE": {
+"s": "auto",
+"n": 2,
+"via": "auto"
+},
+"NFOCUS SOLUTIONS": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"NORTHWOODSPACE": {
+"s": "unknown",
+"n": 0,
+"via": ""
+},
+"RUBRIK": {
+"s": "auto",
+"n": 96,
+"via": "auto"
+},
+"WEBAI": {
+"s": "auto",
+"n": 9,
+"via": "auto"
+},
+"XAI": {
+"s": "unknown",
+"n": 0,
+"via": ""
+}
+}
+}
