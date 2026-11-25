@@ -4,9 +4,8 @@ name: 每日同步岗位看板
 # 本地 cron 之所以断档，是因为调度器跑在桌面 App 进程里，App 没运行就根本不触发。
 on:
   schedule:
-    # GitHub Actions 用 UTC。30 23 UTC = 次日 07:30 北京时间，
-    # 留出 30 分钟余量，保证 08:00 的本地汇报能拿到当天新数据。
-    - cron: "30 23 * * *"
+    # 临时：每 10 分钟一次，用于验证 GitHub 调度器对本仓库是否生效。
+    - cron: "*/10 * * * *"
   workflow_dispatch:        # 手动触发，方便随时验证
 
 permissions:
