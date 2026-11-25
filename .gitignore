@@ -8,6 +8,7 @@
 data/*
 !data/history.json
 !data/visa.json
+!data/startup_jobs.json
 
 # Python
 __pycache__/
