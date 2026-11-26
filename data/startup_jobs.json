@@ -1,10 +1,10 @@
 {
-  "scanned_at": "2026-11-26T16:11:18",
+  "scanned_at": "2026-11-27T02:59:46",
   "counts": {
     "Wellfound": 60,
     "YC WAA": 35
   },
-  "non_tech_dropped": 12,
+  "non_tech_dropped": 13,
   "jobs": [
     {
       "company": "Checkr",
@@ -13,8 +13,8 @@
       "salary": "$185k – $218k",
       "salary_num": 185000.0,
       "salary_unit": "year",
-      "age_days": 1,
-      "age_text": "1d",
+      "age_days": 2,
+      "age_text": "2d",
       "type": "experienced",
       "region": "USA",
       "track": "SWE",
@@ -205,8 +205,8 @@
       "salary": "$200k – $240k",
       "salary_num": 200000.0,
       "salary_unit": "year",
-      "age_days": 6,
-      "age_text": "6d",
+      "age_days": 7,
+      "age_text": "7d",
       "type": "experienced",
       "region": "USA",
       "track": "AI",
@@ -301,8 +301,8 @@
       "salary": "$210k – $280k",
       "salary_num": 210000.0,
       "salary_unit": "year",
-      "age_days": 2,
-      "age_text": "2d",
+      "age_days": 3,
+      "age_text": "3d",
       "type": "experienced",
       "region": "USA",
       "track": "SWE",
@@ -317,8 +317,8 @@
       "salary": "$170k – $250k",
       "salary_num": 170000.0,
       "salary_unit": "year",
-      "age_days": 2,
-      "age_text": "2d",
+      "age_days": 3,
+      "age_text": "3d",
       "type": "experienced",
       "region": "USA",
       "track": "SWE",
@@ -350,7 +350,7 @@
       "salary_num": 180000.0,
       "salary_unit": "year",
       "age_days": 7,
-      "age_text": "7d",
+      "age_text": "1w",
       "type": "experienced",
       "region": "USA",
       "track": "SWE",
@@ -397,8 +397,8 @@
       "salary": "$145k – $190k",
       "salary_num": 145000.0,
       "salary_unit": "year",
-      "age_days": 5,
-      "age_text": "5d",
+      "age_days": 6,
+      "age_text": "6d",
       "type": "experienced",
       "region": "USA",
       "track": "SWE",
@@ -493,8 +493,8 @@
       "salary": "$250k – $300k",
       "salary_num": 250000.0,
       "salary_unit": "year",
-      "age_days": 1,
-      "age_text": "1d",
+      "age_days": 2,
+      "age_text": "2d",
       "type": "experienced",
       "region": "USA",
       "track": "AI",
@@ -509,8 +509,8 @@
       "salary": "$280k – $325k",
       "salary_num": 280000.0,
       "salary_unit": "year",
-      "age_days": 1,
-      "age_text": "1d",
+      "age_days": 2,
+      "age_text": "2d",
       "type": "experienced",
       "region": "USA",
       "track": "AI",
@@ -840,8 +840,8 @@
     },
     {
       "company": "Instawork",
-      "position": "Senior Mechanical Engineer - Robotics Hardware",
-      "location": "Bengaluru, KA, IN / Bengaluru, Karnataka, IN",
+      "position": "Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, IN, ₹2M - ₹9M INR",
       "salary": null,
       "salary_num": null,
       "salary_unit": null,
@@ -852,7 +852,7 @@
       "track": "SWE",
       "tier": "YC",
       "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/107099"
+      "url": "https://www.workatastartup.com/jobs/124788"
     },
     {
       "company": "GiveCampus",
@@ -936,9 +936,9 @@
     },
     {
       "company": "Neuromorphic",
-      "position": "Robotics Hardware Intern (Winter, Dec 15th - January 15th)",
+      "position": "Robotics Learning Intern",
       "location": "San Francisco, CA",
-      "salary": "$6K - $9K / monthly",
+      "salary": "$6K - $9K",
       "salary_num": 6000.0,
       "salary_unit": "year",
       "age_days": null,
@@ -948,14 +948,14 @@
       "track": "SWE",
       "tier": "YC",
       "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/124424"
+      "url": "https://www.workatastartup.com/jobs/123106"
     },
     {
       "company": "Neuromorphic",
-      "position": "Robotics Software Engineer",
+      "position": "Robotics Hardware Engineer",
       "location": "San Francisco, CA",
-      "salary": "$150K - $200K",
-      "salary_num": 150000.0,
+      "salary": "$140K - $170K",
+      "salary_num": 140000.0,
       "salary_unit": "year",
       "age_days": null,
       "age_text": null,
@@ -964,7 +964,7 @@
       "track": "SWE",
       "tier": "YC",
       "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/123107"
+      "url": "https://www.workatastartup.com/jobs/123108"
     },
     {
       "company": "LATO",
@@ -984,22 +984,6 @@
     },
     {
       "company": "Rational",
-      "position": "Software Engineering Intern",
-      "location": "San Francisco, CA, US",
-      "salary": "$8K - $12K / monthly",
-      "salary_num": 8000.0,
-      "salary_unit": "year",
-      "age_days": null,
-      "age_text": null,
-      "type": "intern",
-      "region": "USA",
-      "track": "SWE",
-      "tier": "YC",
-      "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/106942"
-    },
-    {
-      "company": "Rational",
       "position": "Applied AI",
       "location": "San Francisco, CA, US",
       "salary": "$120K - $200K",
@@ -1013,6 +997,22 @@
       "tier": "YC",
       "source": "YC WAA",
       "url": "https://www.workatastartup.com/jobs/106944"
+    },
+    {
+      "company": "Rational",
+      "position": "Machine Learning Researcher",
+      "location": "San Francisco, CA, US",
+      "salary": "$150K - $200K",
+      "salary_num": 150000.0,
+      "salary_unit": "year",
+      "age_days": null,
+      "age_text": null,
+      "type": "experienced",
+      "region": "USA",
+      "track": "AI",
+      "tier": "YC",
+      "source": "YC WAA",
+      "url": "https://www.workatastartup.com/jobs/106941"
     },
     {
       "company": "Aktoria Robotics",
@@ -1032,8 +1032,8 @@
     },
     {
       "company": "Aktoria Robotics",
-      "position": "Data Infrastructure Engineer",
-      "location": "Noida, UP, IN / Noida, Uttar Pradesh, IN, ₹2M - ₹4M INR",
+      "position": "Robotics Field Engineer",
+      "location": "Noida, UP, IN / Noida, Uttar Pradesh, IN, ₹1M - ₹1.6M INR",
       "salary": null,
       "salary_num": null,
       "salary_unit": null,
@@ -1044,23 +1044,7 @@
       "track": "SWE",
       "tier": "YC",
       "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/118749"
-    },
-    {
-      "company": "Ooak Data",
-      "position": "Senior DevOps Engineer",
-      "location": "Paris, IDF, FR / Paris, Île-de-France, FR, €65 - €95 EUR",
-      "salary": null,
-      "salary_num": null,
-      "salary_unit": null,
-      "age_days": null,
-      "age_text": null,
-      "type": "experienced",
-      "region": "INTL",
-      "track": "SWE",
-      "tier": "YC",
-      "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/123830"
+      "url": "https://www.workatastartup.com/jobs/118748"
     },
     {
       "company": "Ooak Data",
@@ -1077,6 +1061,22 @@
       "tier": "YC",
       "source": "YC WAA",
       "url": "https://www.workatastartup.com/jobs/99221"
+    },
+    {
+      "company": "Ooak Data",
+      "position": "Software Engineer Senior",
+      "location": "Paris, IDF, FR / Paris, Île-de-France, FR, €55K - €80K EUR",
+      "salary": null,
+      "salary_num": null,
+      "salary_unit": null,
+      "age_days": null,
+      "age_text": null,
+      "type": "experienced",
+      "region": "INTL",
+      "track": "SWE",
+      "tier": "YC",
+      "source": "YC WAA",
+      "url": "https://www.workatastartup.com/jobs/99220"
     },
     {
       "company": "COACH",
@@ -1209,6 +1209,22 @@
     {
       "company": "Limrun",
       "position": "Founding Engineer",
+      "location": "Istanbul, İstanbul, TR",
+      "salary": "$75K - $180K",
+      "salary_num": 75000.0,
+      "salary_unit": "year",
+      "age_days": null,
+      "age_text": null,
+      "type": "experienced",
+      "region": "USA",
+      "track": "SWE",
+      "tier": "YC",
+      "source": "YC WAA",
+      "url": "https://www.workatastartup.com/jobs/114326"
+    },
+    {
+      "company": "Limrun",
+      "position": "Founding Engineer",
       "location": "San Francisco, CA, US",
       "salary": "$180K - $300K",
       "salary_num": 180000.0,
@@ -1221,22 +1237,6 @@
       "tier": "YC",
       "source": "YC WAA",
       "url": "https://www.workatastartup.com/jobs/110499"
-    },
-    {
-      "company": "Limrun",
-      "position": "Developer Relations Engineer",
-      "location": "San Francisco, CA, US",
-      "salary": "$165K - $175K",
-      "salary_num": 165000.0,
-      "salary_unit": "year",
-      "age_days": null,
-      "age_text": null,
-      "type": "experienced",
-      "region": "USA",
-      "track": "SWE",
-      "tier": "YC",
-      "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/116542"
     },
     {
       "company": "Rudus",
@@ -1272,10 +1272,10 @@
     },
     {
       "company": "",
-      "position": "Founding Engineer",
-      "location": "Istanbul, İstanbul, TR",
-      "salary": "$75K - $180K",
-      "salary_num": 75000.0,
+      "position": "Developer Relations Engineer",
+      "location": "San Francisco, CA, US",
+      "salary": "$165K - $175K",
+      "salary_num": 165000.0,
       "salary_unit": "year",
       "age_days": null,
       "age_text": null,
@@ -1284,28 +1284,28 @@
       "track": "SWE",
       "tier": "YC",
       "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/114326"
+      "url": "https://www.workatastartup.com/jobs/116542"
     },
     {
-      "company": "Omnistrate",
-      "position": "Senior Platform Engineer [US]",
-      "location": "US / Remote (US)",
-      "salary": "$150K - $200K",
+      "company": "Pennant",
+      "position": "Founding Engineer, Data & AI",
+      "location": "New York, NY, US",
+      "salary": "$150K - $250K",
       "salary_num": 150000.0,
       "salary_unit": "year",
       "age_days": null,
       "age_text": null,
       "type": "experienced",
       "region": "USA",
-      "track": "SWE",
+      "track": "AI",
       "tier": "YC",
       "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/79259"
+      "url": "https://www.workatastartup.com/jobs/111752"
     },
     {
-      "company": "ParadeDB",
-      "position": "Distributed Systems Engineer — Postgres Platform",
-      "location": "San Francisco, CA, US / Remote (US; CA)",
+      "company": "Revyl",
+      "position": "Staff Infrastructure Engineer — Device Cloud",
+      "location": "San Francisco, CA, US / Remote (US)",
       "salary": "$150K - $250K",
       "salary_num": 150000.0,
       "salary_unit": "year",
@@ -1316,23 +1316,7 @@
       "track": "SWE",
       "tier": "YC",
       "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/74019"
-    },
-    {
-      "company": "Turion Space",
-      "position": "Senior Platform Engineer",
-      "location": "Irvine, CA, US",
-      "salary": "$130 - $180",
-      "salary_num": 130.0,
-      "salary_unit": "year",
-      "age_days": null,
-      "age_text": null,
-      "type": "experienced",
-      "region": "USA",
-      "track": "SWE",
-      "tier": "YC",
-      "source": "YC WAA",
-      "url": "https://www.workatastartup.com/jobs/72266"
+      "url": "https://www.workatastartup.com/jobs/105186"
     }
   ]
 }
